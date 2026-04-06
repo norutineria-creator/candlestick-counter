@@ -50,7 +50,8 @@ body{display:flex;flex-direction:column;min-height:100vh}
   background:var(--bg2);
   border-bottom:1px solid var(--border);
   padding:0 24px;
-  height:56px;
+  padding-top:env(safe-area-inset-top);
+  min-height:56px;
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -306,7 +307,11 @@ body{display:flex;flex-direction:column;min-height:100vh}
 
 /* iOS セーフエリア対応（ノッチ・ホームバー） */
 @supports(padding: max(0px)){
-  .app-header{padding-left:max(24px, env(safe-area-inset-left));padding-right:max(24px, env(safe-area-inset-right));}
+  .app-header{
+    padding-top:max(0px, env(safe-area-inset-top));
+    padding-left:max(24px, env(safe-area-inset-left));
+    padding-right:max(24px, env(safe-area-inset-right));
+  }
   .stats-bar{padding-left:max(24px, env(safe-area-inset-left));padding-right:max(24px, env(safe-area-inset-right));}
   .sidebar{padding-left:max(10px, env(safe-area-inset-left));}
   .grid-area{padding-right:max(24px, env(safe-area-inset-right));}
