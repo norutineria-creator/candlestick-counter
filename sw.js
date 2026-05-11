@@ -1,4 +1,4 @@
-const CACHE_NAME = 'candlestick-v1';
+const CACHE_NAME = 'candlestick-v2';
 const ASSETS = [
   './index.html',
   './manifest.json',
