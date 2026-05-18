@@ -8,13 +8,16 @@ A free, feature-rich web tool for traders to count, record, and analyze candlest
 
 ## ✨ Features
 
-- **Pattern Counter** — Count 35+ candlestick patterns across 4 categories: Single, Bullish Reversal, Bearish Reversal, and Continuation
+- **Pattern Counter** — Count 50+ candlestick patterns across 4 categories: Single, Bullish Reversal, Bearish Reversal, and Continuation
+- **Ranking** — View patterns ranked by count frequency with inline edit button per card
 - **Trade Journal** — Record trade entries with pattern, direction, result, P&L, and notes
 - **Analytics** — Charts for P&L history, win rate by pattern, and P&L distribution
 - **Quiz Mode** — Test your candlestick knowledge with beginner and advanced modes
 - **Learning Progress** — Track your accuracy per pattern and identify weak spots
-- **Image Analysis** — Upload chart screenshots for assisted pattern counting (PC only)
+- **Image Analysis** — Upload chart screenshots for assisted pattern counting (Claude API high-accuracy mode + browser simple mode)
 - **Custom Patterns** — Create your own 2–3 candle combinations
+- **Super Builder** — Build original patterns with up to 5 candles freely arranged
+- **Pattern Guide** — Detailed explanations, signals, and tips for all patterns with FAQ
 - **My Rules** — Save and display your personal trading rules
 - **Backup & Restore** — Export/import trade data as JSON or CSV
 - **PWA Support** — Install on your home screen for app-like experience
@@ -38,6 +41,7 @@ Works on both desktop and mobile browsers.
 - Chart.js 4.4.1
 - Service Worker (PWA)
 - localStorage (client-side data storage)
+- Claude API (optional, for image analysis)
 - GitHub Pages (hosting)
 
 ---
@@ -68,13 +72,16 @@ This project is for personal and educational use.
 
 ## ✨ 主な機能
 
-- **パターンカウンター** — 単一線・強気反転・弱気反転・継続の4カテゴリで35種類以上のパターンをカウント
+- **パターンカウンター** — 単一線・強気反転・弱気反転・継続の4カテゴリで50種類以上のパターンをカウント
+- **ランキング** — カウント数順にランキング表示。各カードの編集ボタンから個別に編集可能
 - **トレード記録帳** — パターン・方向・結果・損益・メモを記録
 - **分析グラフ** — 損益推移・パターン別勝率・損益分布をグラフで表示
 - **クイズモード** — 初級・上級でローソク足の知識をテスト
 - **学習進捗** — パターン別の正解率を追跡し、苦手なパターンを把握
-- **画像解析** — チャートのスクリーンショットをアップロードしてカウントをサポート（PC専用）
+- **画像解析** — チャートのスクリーンショットをアップロードしてカウントをサポート（Claude API高精度モード＋ブラウザ簡易モード）
 - **カスタムパターン** — 2〜3本の組み合わせで独自パターンを作成
+- **Super Builder** — 最大5本のローソク足を自由に組み合わせてオリジナルパターンを作成
+- **解説ガイド** — 全パターンの詳細解説・シグナル・ポイント・FAQ を収録
 - **My格言** — 自分のトレードルールを保存・表示
 - **バックアップ・復元** — トレードデータをJSONまたはCSVで書き出し・読み込み
 - **PWA対応** — ホーム画面に追加してアプリのように使える
@@ -98,6 +105,7 @@ PC・スマホどちらのブラウザでも動作します。
 - Chart.js 4.4.1
 - Service Worker（PWA）
 - localStorage（クライアントサイドのデータ保存）
+- Claude API（オプション・画像解析用）
 - GitHub Pages（ホスティング）
 
 ---
@@ -128,13 +136,16 @@ Una herramienta web gratuita y completa para que los traders cuenten, registren 
 
 ## ✨ Características
 
-- **Contador de Patrones** — Cuenta más de 35 patrones en 4 categorías: Individual, Reversión Alcista, Reversión Bajista y Continuación
+- **Contador de Patrones** — Cuenta más de 50 patrones en 4 categorías: Individual, Reversión Alcista, Reversión Bajista y Continuación
+- **Ranking** — Visualiza los patrones ordenados por frecuencia con botón de edición por tarjeta
 - **Diario de Operaciones** — Registra entradas con patrón, dirección, resultado, ganancias/pérdidas y notas
 - **Análisis** — Gráficos de historial de P&L, tasa de aciertos por patrón y distribución de P&L
 - **Modo Quiz** — Pon a prueba tu conocimiento con modos principiante y avanzado
 - **Progreso de Aprendizaje** — Seguimiento de tu precisión por patrón e identificación de puntos débiles
-- **Análisis de Imágenes** — Sube capturas de pantalla de gráficos para asistencia en el conteo (solo PC)
+- **Análisis de Imágenes** — Sube capturas de pantalla de gráficos para asistencia en el conteo (modo alta precisión con Claude API + modo simple en navegador)
 - **Patrones Personalizados** — Crea tus propias combinaciones de 2–3 velas
+- **Super Builder** — Construye patrones originales con hasta 5 velas combinadas libremente
+- **Guía de Patrones** — Explicaciones detalladas, señales y consejos para todos los patrones con FAQ
 - **Mis Reglas** — Guarda y muestra tus reglas personales de trading
 - **Respaldo y Restauración** — Exporta/importa datos en formato JSON o CSV
 - **Soporte PWA** — Instala en tu pantalla de inicio para una experiencia similar a una app
@@ -158,6 +169,7 @@ Compatible con navegadores de escritorio y móviles.
 - Chart.js 4.4.1
 - Service Worker (PWA)
 - localStorage (almacenamiento de datos en el cliente)
+- Claude API (opcional, para análisis de imágenes)
 - GitHub Pages (alojamiento)
 
 ---
